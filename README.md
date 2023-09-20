@@ -12,3 +12,20 @@ streamlit
 
 ## LLAMA 2
 [llama-2-7b-chat.ggmlv3.q2_k](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML)
+
+## Set up
+```shell
+$ pip install -r requirements.txt
+```
+
+## Launch the app
+
+Use the following command to run the app in your localhost.
+
+```
+streamlit run ./ggml.py
+
+or
+
+streamlit run ./openai.py
+```
